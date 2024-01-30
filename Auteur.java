@@ -29,6 +29,22 @@ public class Auteur{
         return this.perf_trag;
     }
 
+   public int getQualiteComedie(){
+        return this.point_com;
+    }
+
+    public String getCitationComedie(){
+        return this.perf_com;
+    }
+
+    public int getQualiteDrame(){
+        return this.point_dram;
+    }
+
+    public String getCitationDrame(){
+        return this.perf_dram;
+    }
+
     @Override
     public String toString(){
         return "L'honorable " + this.nom;
