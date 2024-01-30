@@ -25,6 +25,10 @@ public class Auteur{
         return this.point_trag;
     }
 
+    public String getCitationTragedie(){
+        return this.perf_trag;
+    }
+
     @Override
     public String toString(){
         return "L'honorable " + this.nom;
