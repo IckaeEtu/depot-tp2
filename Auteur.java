@@ -21,6 +21,10 @@ public class Auteur{
 
     }
 
+    public int getQualiteTragedie(){
+        return this.point_trag;
+    }
+
     @Override
     public String toString(){
         return "L'honorable " + this.nom;
