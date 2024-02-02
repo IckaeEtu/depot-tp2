@@ -1,4 +1,6 @@
 //import dionysies.Tournoi;
+import org.junit.*;
+import static org.junit.Assert.assertEquals;
 
 class Main {
   public static void main(String[] args) {
@@ -66,5 +68,7 @@ class Main {
         "La fortune a vite fait de changer en mal et de régner sous une autre face.";
 
     Auteur aristophane = new Auteur("Aristophane", 5, citation_thesmophories, 100, citation_guêpes, 0, "");
-  }
+
+
+    }
 }
