@@ -45,6 +45,18 @@ public class Auteur{
         return this.perf_dram;
     }
 
+    public Style pointFort(){
+        if (this.getQualiteComedie() > this.getQualiteDrame() && this.getQualiteComedie() > this.getQualiteTragedie()) {
+            return Style.COMÉDIE;
+        }
+        if (this.getQualiteTragedie() > this.getQualiteDrame() && this.getQualiteTragedie() > this.getQualiteComedie()) {
+            return Style.TRAGÉDIE;
+        }
+        else {
+            return Style.DRAME;
+        }
+    }
+
     @Override
     public String toString(){
         return "L'honorable " + this.nom;
